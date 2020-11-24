@@ -22,7 +22,7 @@ const CustomNavbar = () => {
 
   return (
     <Container>
-      <Navbar bg="primary" variant="dark" fixed="top">
+      <Navbar bg="primary" variant="dark" fixed="top" style={{overflow: "auto"}}>
         <Navbar.Brand style={{cursor: "default"}}>My Portfolio</Navbar.Brand>
           <Nav className="mr-auto">
             <Container>
