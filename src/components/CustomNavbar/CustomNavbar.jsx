@@ -18,36 +18,36 @@ const CustomNavbar = () => {
     }
   }, []);
 
-  const linkStyle = {float: "left", cursor: "pointer", border: "solid", padding: "5px"};
+  const linkStyle = {color: "white", cursor: "pointer", padding: "8px"};
 
   return (
     <Container>
-      <Navbar bg="primary" variant="dark" fixed="top" style={{overflow: "auto"}}>
-        <Navbar.Brand style={{cursor: "default"}}>My Portfolio</Navbar.Brand>
+      <Navbar bg="dark" variant="dark" fixed="top" style={{overflow: "auto", height: "50px"}}>
+        <Navbar.Brand style={{color: "white", cursor: "default"}}>My Portfolio</Navbar.Brand>
           <Nav className="mr-auto">
             <Container>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link to="hero" smooth duration={1000} style={linkStyle}>Home</Link>
+                <Link className="border rounded-pill" to="hero" smooth duration={1000} style={linkStyle}>Home</Link>
               </Fade>
             </Container>
             <Container>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link to="about" smooth duration={1000} style={linkStyle}>About</Link>
+                <Link className="border rounded-pill" to="about" smooth duration={1000} style={linkStyle}>About</Link>
               </Fade>
             </Container>
             <Container>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link to="projects" smooth duration={1000} style={linkStyle}>Projects</Link>
+                <Link className="border rounded-pill" to="projects" smooth duration={1000} style={linkStyle}>Projects</Link>
               </Fade>
             </Container>
             <Container>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link to="contact" smooth duration={1000} style={linkStyle}>Contact</Link>
+                <Link className="border rounded-pill" to="contact" smooth duration={1000} style={linkStyle}>Contact</Link>
               </Fade>
             </Container>
             <Container>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link to="footer" smooth duration={1000} style={linkStyle}>SocialProfiles</Link>
+                <Link className="border rounded-pill" to="footer" smooth duration={1000} style={linkStyle}>SocialProfiles</Link>
               </Fade>
             </Container>
           </Nav>

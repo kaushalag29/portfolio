@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "deploy": "./node_modules/.bin/gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "npm run clean && ./node_modules/.bin/gatsby build --prefix-paths && gh-pages -d public",
     "build": "./node_modules/.bin/gatsby build",
     "develop": "./node_modules/.bin/gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
