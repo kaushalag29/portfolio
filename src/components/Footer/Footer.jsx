@@ -12,7 +12,7 @@ const Footer = () => {
   const { isEnabled } = githubButtons;
 
   return (
-    <footer className="footer navbar-static-bottom">
+    <footer id="footer" className="footer navbar-static-bottom">
       <Container>
         <span className="back-to-top">
           <Link to="hero" smooth duration={1000}>

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-scroll';
+import { Navbar, Nav} from 'react-bootstrap';
 
 const CustomNavbar = () => {
 
@@ -21,38 +19,24 @@ const CustomNavbar = () => {
   const linkStyle = {color: "white", cursor: "pointer", padding: "8px"};
 
   return (
-    <Container>
-      <Navbar bg="dark" variant="dark" fixed="top" style={{overflow: "auto", height: "50px"}}>
-        <Navbar.Brand style={{color: "white", cursor: "default"}}>My Portfolio</Navbar.Brand>
-          <Nav className="mr-auto">
-            <Container>
-              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link className="border rounded-pill" to="hero" smooth duration={1000} style={linkStyle}>Home</Link>
-              </Fade>
-            </Container>
-            <Container>
-              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link className="border rounded-pill" to="about" smooth duration={1000} style={linkStyle}>About</Link>
-              </Fade>
-            </Container>
-            <Container>
-              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link className="border rounded-pill" to="projects" smooth duration={1000} style={linkStyle}>Projects</Link>
-              </Fade>
-            </Container>
-            <Container>
-              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link className="border rounded-pill" to="contact" smooth duration={1000} style={linkStyle}>Contact</Link>
-              </Fade>
-            </Container>
-            <Container>
-              <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <Link className="border rounded-pill" to="footer" smooth duration={1000} style={linkStyle}>SocialProfiles</Link>
-              </Fade>
-            </Container>
-          </Nav>
-      </Navbar>
-    </Container>
+    <Navbar collapseOnSelect expand='lg' bg="dark" variant="dark" fixed="top">
+      <Navbar.Brand style={{cursor: "default"}}>
+        <figure>
+          <img alt="" src={require("../../images/favicon.png")} width="70px" height="70px" style={{borderRadius: "50%"}} />
+          <figcaption>Kaushal Kumar Agarwal</figcaption>
+        </figure>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="#hero">Home</Nav.Link>
+          <Nav.Link href="#about">About</Nav.Link>
+          <Nav.Link href="#projects">Projects</Nav.Link>
+          <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav.Link href="#footer">Social Profiles</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
