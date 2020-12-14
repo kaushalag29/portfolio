@@ -68,7 +68,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'medium',
-      url: 'https://medium.com/@kaushalagarwal_73962',
+      url: 'https://kaushalagarwal-73962.medium.com/',
     },
     {
       id: nanoid(),
