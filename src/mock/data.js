@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a Computer Science Graduate(2020), passionate about Software Development, Web Penetration Testing & Data Engineering. I like solving real-world problems and try to keep things as simple as possible.',
+    'I am an experienced Software Engineer with over 2+ years of expertise in the IT industry. Armed with a strong background in Computer Science and a Bachelor of Engineering degree, I have successfully navigated through multiple domains and cutting-edge technologies. Throughout my journey, I have honed my skills in Software/Data Engineering, Cloud Computing, Apache Spark, and Blockchain, gaining hands-on experience through internships and real-world projects. As a Senior Software Engineer at Cloudwick Technologies, I have become proficient in leveraging AWS Serverless services and developing industry-level code. Additionally, I have acquired certifications in AWS, Data Analytics, and Hacking & Patching, further augmenting my skill set. My diverse experiences have also contributed to the development of my managerial, computing, programming, analytical, problem-solving, and communication skills, making me a well-rounded professional in the field.',
   paragraphTwo:
-    'I am currently working(Full-Time) at Cloudwick Technologies as SDE-II & have worked mostly as a Backend Engineer(Intern) in the past, since it helps me understand the underlying implementation and concepts that are required while launching Production-level Projects.',
+    'With an unwavering commitment to continuous growth and a thirst for staying at the forefront of advancements in Computer Science, I am excited to embark on the next phase of my academic journey. To complement my practical experiences, I am eager to pursue a Master of Computer Science program at Rice University, starting in Fall 2023. This pursuit reflects my dedication to expanding my expertise and pushing the boundaries of innovation in the field. As I move forward, I remain driven by the passion for making a meaningful impact, solving complex challenges, and contributing to the progress of the industry. My journey thus far has equipped me with the necessary skills and knowledge, and I am enthusiastic about embracing new challenges and exploring new horizons in the ever-evolving landscape of Computer Science.',
   paragraphThree:
     'I am always ready to adapt and work with new Technology. Security & Privacy comes first into my mind before starting anything afresh. Think More, Code Less!',
   resume: 'https://drive.google.com/file/d/1tMKKWhOf1ortURHQukP9m2QDGgcyrxeC/view?usp=sharing', // if no resume, the button will not show up
@@ -42,8 +42,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Project2.png',
     title: 'Web Reconnaissance',
-    info:
-      'This tool is developed for passively scanning a Website completely with the help of many Github repositories.',
+    info: 'This tool is developed for passively scanning a Website completely with the help of many Github repositories.',
     info2: 'Tech Stack --> Python Scripting',
     url: 'https://www.youtube.com/watch?v=Bx8G4BnEbx8',
     repo: 'https://github.com/kaushalag29/Website-Scanners', // if no repo, the button will not show up
@@ -52,8 +51,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Project1.png',
     title: 'Chat With Strangers',
-    info:
-      'Simple Website Interface For Unknown Users To Chat With Each Other Using Random Nick-Name.',
+    info: 'Simple Website Interface For Unknown Users To Chat With Each Other Using Random Nick-Name.',
     info2: 'Tech Stack --> Node.js(Express & Socket.io), MongoDB',
     url: 'https://youtu.be/8b7h7xvvCl8',
     repo: 'https://github.com/kaushalag29/Chat-WebSite', // if no repo, the button will not show up
