@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import profileImage from '../../images/small-profile.png';
+import profileImage from '../../images/favicon.png';
 
 const CustomNavbar = () => {
   // const [isDesktop, setIsDesktop] = useState(false);
