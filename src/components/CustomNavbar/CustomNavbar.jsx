@@ -1,32 +1,38 @@
-import React, { useState, useEffect } from 'react';
-import { Navbar, Nav} from 'react-bootstrap';
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import profileImage from '../../images/small-profile.png';
 
 const CustomNavbar = () => {
+  // const [isDesktop, setIsDesktop] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
 
-  const [isDesktop, setIsDesktop] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  // useEffect(() => {
+  //   if (window.innerWidth > 769) {
+  //     setIsDesktop(true);
+  //     setIsMobile(false);
+  //   } else {
+  //     setIsMobile(true);
+  //     setIsDesktop(false);
+  //   }
+  // }, []);
 
-  useEffect(() => {
-    if (window.innerWidth > 769) {
-      setIsDesktop(true);
-      setIsMobile(false);
-    } else {
-      setIsMobile(true);
-      setIsDesktop(false);
-    }
-  }, []);
-
-  const linkStyle = {color: "white", cursor: "pointer", padding: "8px"};
+  // const linkStyle = {color: "white", cursor: "pointer", padding: "8px"};
 
   return (
-    <Navbar collapseOnSelect expand='lg' bg="dark" variant="dark" fixed="top">
-      <Navbar.Brand style={{cursor: "default"}}>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+      <Navbar.Brand style={{ cursor: 'default' }}>
         <figure>
-          <img alt="" src={require("../../images/favicon.png")} width="70px" height="70px" style={{borderRadius: "50%"}} />
+          <img
+            alt="Not Found"
+            src={profileImage}
+            width="70px"
+            height="70px"
+            style={{ borderRadius: '50%' }}
+          />
           <figcaption>Kaushal Kumar Agarwal</figcaption>
         </figure>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#hero">Home</Nav.Link>

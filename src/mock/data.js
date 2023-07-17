@@ -62,11 +62,11 @@ export const projectsData = [
 export const certificatesData = [
   {
     id: nanoid(),
-    img: 'Certificate3.png',
-    title: 'AWS Certified Developer Associate',
-    validFrom: 'June 06, 2021',
-    validUntil: 'June 06, 2024',
-    url: 'https://www.credly.com/badges/3107e850-f35f-4060-8160-041824b9dd6e/public_url',
+    img: 'Certificate1.png',
+    title: 'AWS Certified SysOps Administrator Associate',
+    validFrom: 'April 09, 2022',
+    validUntil: 'April 09, 2025',
+    url: 'https://www.credly.com/badges/9bf20796-e515-4a05-b752-8fa46dc90355/public_url',
   },
   {
     id: nanoid(),
@@ -78,11 +78,35 @@ export const certificatesData = [
   },
   {
     id: nanoid(),
-    img: 'Certificate1.png',
-    title: 'AWS Certified SysOps Administrator Associate',
-    validFrom: 'April 09, 2022',
-    validUntil: 'April 09, 2025',
-    url: 'https://www.credly.com/badges/9bf20796-e515-4a05-b752-8fa46dc90355/public_url',
+    img: 'Certificate3.png',
+    title: 'AWS Certified Developer Associate',
+    validFrom: 'June 06, 2021',
+    validUntil: 'June 06, 2024',
+    url: 'https://www.credly.com/badges/3107e850-f35f-4060-8160-041824b9dd6e/public_url',
+  },
+  {
+    id: nanoid(),
+    img: 'Certificate4.png',
+    title: 'EPFL - Big Data Analysis with Scala and Spark',
+    validFrom: 'July 26, 2020',
+    validUntil: 'Present',
+    url: 'https://drive.google.com/file/d/1OG-2S0Y-LWHbujuq4v8umgciSJg0PA7K/view?usp=sharing',
+  },
+  {
+    id: nanoid(),
+    img: 'Certificate4.png',
+    title: 'DeepLearning.AI - Neural Networks and Deep Learning',
+    validFrom: 'May 10, 2020',
+    validUntil: 'Present',
+    url: 'https://drive.google.com/file/d/19DYxCQVq5wWedS-wi1PyJad-DeNaETjY/view?usp=sharing',
+  },
+  {
+    id: nanoid(),
+    img: 'Certificate4.png',
+    title: 'University of Colorado - Hacking & Patching',
+    validFrom: 'March 05, 2020',
+    validUntil: 'Present',
+    url: 'https://drive.google.com/file/d/1S1c-WvYZc2OalRCVCOMqRsRgqFFRMSRU/view?usp=sharing',
   },
 ];
 
