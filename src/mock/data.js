@@ -27,6 +27,46 @@ export const aboutData = {
   resume: 'https://drive.google.com/file/d/1tMKKWhOf1ortURHQukP9m2QDGgcyrxeC/view?usp=sharing', // if no resume, the button will not show up
 };
 
+// COMPANIES DATA
+export const companiesData = [
+  {
+    id: nanoid(),
+    img: 'Company4.jpg',
+    title: 'Software Developer Intern',
+    startDate: 'May 20, 2024',
+    endDate: 'Present',
+    url: '',
+    companyUrl: 'https://www.paycom.com/',
+  },
+  {
+    id: nanoid(),
+    img: 'Company3.jpeg',
+    title: 'Software Engineer II',
+    startDate: 'Dec 21, 2020',
+    endDate: 'July 07, 2023',
+    url: 'https://drive.google.com/file/d/1jqiG5c_9hJSUMs9-7Lcrk45d80BALQIb/view?usp=sharing',
+    companyUrl: 'https://cloudwick.com/',
+  },
+  {
+    id: nanoid(),
+    img: 'Company2.png',
+    title: 'Engineering Intern',
+    startDate: 'Jan 13, 2020',
+    endDate: 'Dec 18, 2020',
+    url: 'https://drive.google.com/file/d/1pz-geLbjvXKkzYoh-QCJF3f16zDZ7e1Q/view?usp=drive_link',
+    companyUrl: 'https://www.qubole.com/',
+  },
+  {
+    id: nanoid(),
+    img: 'Company1.jpg',
+    title: 'Technology Intern',
+    startDate: 'May 06, 2019',
+    endDate: 'July 12, 2019',
+    url: 'https://drive.google.com/file/d/1146LlbXOuycFsqdN9bd3jUD_R2E3flpb/view?usp=sharing',
+    companyUrl: 'https://www.microland.com/',
+  },
+];
+
 // PROJECTS DATA
 export const projectsData = [
   {
