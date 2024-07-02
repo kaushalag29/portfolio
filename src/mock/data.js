@@ -106,7 +106,7 @@ export const certificatesData = [
     title: 'AWS Certified SysOps Administrator Associate',
     validFrom: 'April 09, 2022',
     validUntil: 'April 09, 2025',
-    url: 'https://www.credly.com/badges/9bf20796-e515-4a05-b752-8fa46dc90355/public_url',
+    url: 'https://drive.google.com/file/d/1swi9PrX86afJVxNymrhpMz8K0gr1D7aE/view?usp=sharing',
   },
   {
     id: nanoid(),
@@ -114,7 +114,7 @@ export const certificatesData = [
     title: 'AWS Certified Solutions Architect Associate',
     validFrom: 'September 05, 2021',
     validUntil: 'September 05, 2024',
-    url: 'https://www.credly.com/badges/e3e77629-f1e7-452c-b919-68fab2cc81b5/public_url',
+    url: 'https://drive.google.com/file/d/1pLLtGPol1pg-yHGs-sSVziCuk4Xjnf8J/view?usp=sharing',
   },
   {
     id: nanoid(),
@@ -122,7 +122,7 @@ export const certificatesData = [
     title: 'AWS Certified Developer Associate',
     validFrom: 'June 06, 2021',
     validUntil: 'June 06, 2024',
-    url: 'https://www.credly.com/badges/3107e850-f35f-4060-8160-041824b9dd6e/public_url',
+    url: 'https://drive.google.com/file/d/1vWIofvna-Jkm_js2hMH8se98ix5Pr4wL/view?usp=sharing',
   },
   {
     id: nanoid(),
