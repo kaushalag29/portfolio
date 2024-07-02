@@ -71,30 +71,30 @@ export const companiesData = [
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'Project1.png',
+    title: 'Image-Based Retrieval System',
+    info: 'Evaluation of the FAISS (Facebook AI Similarity Search) library for retrieving K similar images for a given input image.',
+    info2: 'Tech Stack -> Python, FAISS Algorithm & SigLIP Model',
+    url: 'https://drive.google.com/file/d/1agdnF5qffHHcn4D5sYdSJiKRMIqx8Eoq/view',
+    repo: 'https://github.com/kaushalag29/COMP-646-Faiss-Project', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Project2.png',
+    title: 'Video Dubber',
+    info: 'A project for dubbing any video by utilizing subtitles and and incorporating open-source projects.',
+    info2: 'Tech Stack --> Python, Text-To-Speech (Voice Cloning) & FFMpeg',
+    url: 'https://www.youtube.com/channel/UCkeZ85bZLIcYJGTxeQhsTxA',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'Project3.png',
     title: 'BC Web Hosting Platform',
     info: 'A platform for hosting Website(1.0) using Ethereum Blockchain & IPFS Technology.',
     info2: 'Tech Stack --> Blockchain, IPFS, Metamask, Chrome Extension',
     url: 'https://youtu.be/BoGtQ4uK0-I',
     repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'Project2.png',
-    title: 'Web Reconnaissance',
-    info: 'This tool is developed for passively scanning a Website completely with the help of many Github repositories.',
-    info2: 'Tech Stack --> Python Scripting',
-    url: 'https://www.youtube.com/watch?v=Bx8G4BnEbx8',
-    repo: 'https://github.com/kaushalag29/Website-Scanners', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'Project1.png',
-    title: 'Chat With Strangers',
-    info: 'Simple Website Interface For Unknown Users To Chat With Each Other Using Random Nick-Name.',
-    info2: 'Tech Stack --> Node.js(Express & Socket.io), MongoDB',
-    url: 'https://youtu.be/8b7h7xvvCl8',
-    repo: 'https://github.com/kaushalag29/Chat-WebSite', // if no repo, the button will not show up
   },
 ];
 
