@@ -31,7 +31,7 @@ export const aboutData = {
 export const companiesData = [
   {
     id: nanoid(),
-    img: 'Company4.jpg',
+    img: 'Company4.png',
     title: 'Software Developer Intern',
     startDate: 'May 20, 2024',
     endDate: 'Present',
@@ -40,7 +40,7 @@ export const companiesData = [
   },
   {
     id: nanoid(),
-    img: 'Company3.jpeg',
+    img: 'Company3.png',
     title: 'Software Engineer II',
     startDate: 'Dec 21, 2020',
     endDate: 'July 07, 2023',
@@ -58,7 +58,7 @@ export const companiesData = [
   },
   {
     id: nanoid(),
-    img: 'Company1.jpg',
+    img: 'Company1.png',
     title: 'Technology Intern',
     startDate: 'May 06, 2019',
     endDate: 'July 12, 2019',
